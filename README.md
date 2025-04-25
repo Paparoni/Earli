@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# Music Recommendation Web App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A web app built with React, using machine learning to suggest personalized music based on users' Spotify listening history.
 
-## Get started
+## Features
 
-1. Install dependencies
+- 🎵 **Personalized Music Recommendations**: Recommends songs tailored to users' listening patterns.
+- 🤖 **Machine Learning Algorithm**: Uses an algorithm to predict music preferences based on historical data.
+- 🌍 **Spotify Integration**: Connects with users' Spotify accounts to access their listening history for accurate recommendations.
+- 🔄 **Real-time Suggestions**: Get new song recommendations instantly after analyzing your listening habits.
 
-   ```bash
-   npm install
-   ```
+## Technologies Used
 
-2. Start the app
+- **Frontend**: React
+- **Backend**: Node.js
+- **Machine Learning**: Python/TensorFlow
+- **Spotify API**: To access users' listening history and fetch song recommendations
 
-   ```bash
-    npx expo start
-   ```
+## How It Works
 
-In the output, you'll find options to open the app in a
+1. **Spotify Authentication**: Users log in with their Spotify account to give the app access to their listening history.
+2. **Data Collection**: The app collects data about the user's listening habits, including track names, genres, and artists.
+3. **Algorithm Analysis**: A machine learning model processes the data and identifies patterns in the user's music preferences.
+4. **Song Recommendations**: Based on the analysis, the app suggests personalized tracks that fit the user’s taste.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Acknowledgements
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Spotify API**: For providing access to users' listening data.
+- **Machine Learning Libraries**: 
+- **React**: For the frontend development.
 
-## Get a fresh project
+## License
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
