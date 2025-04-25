@@ -1,4 +1,4 @@
-# Music Recommendation Web App
+# Earli
 
 A web app built with React, using machine learning to suggest personalized music based on users' Spotify listening history.
 
@@ -15,6 +15,7 @@ A web app built with React, using machine learning to suggest personalized music
 - **Backend**: Node.js
 - **Machine Learning**: Python/TensorFlow
 - **Spotify API**: To access users' listening history and fetch song recommendations
+- **Version Control**: Git
 
 ## How It Works
 
