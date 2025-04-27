@@ -3,6 +3,7 @@ import {Alert, Modal, StyleSheet, Text, Pressable, View, Platform} from 'react-n
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 import appService from './app';
 
+
 const App = () => {
   const [modalVisible, setModalVisible] = useState(false);
   return (
