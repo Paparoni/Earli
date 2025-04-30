@@ -1,35 +1,36 @@
-# Earli
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A web app built with React, using machine learning to suggest personalized music based on users' Spotify listening history.
+## Getting Started
 
-## Features
+First, run the development server:
 
-- 🎵 **Personalized Music Recommendations**: Recommends songs tailored to users' listening patterns.
-- 🤖 **Machine Learning Algorithm**: Uses an algorithm to predict music preferences based on historical data.
-- 🌍 **Spotify Integration**: Connects with users' Spotify accounts to access their listening history for accurate recommendations.
-- 🔄 **Real-time Suggestions**: Get new song recommendations instantly after analyzing your listening habits.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Technologies Used
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **Frontend**: React
-- **Backend**: Node.js
-- **Machine Learning**: Python/TensorFlow
-- **Spotify API**: To access users' listening history and fetch song recommendations
-- **Version Control**: Git
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## How It Works
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-1. **Spotify Authentication**: Users log in with their Spotify account to give the app access to their listening history.
-2. **Data Collection**: The app collects data about the user's listening habits, including track names, genres, and artists.
-3. **Algorithm Analysis**: A machine learning model processes the data and identifies patterns in the user's music preferences.
-4. **Song Recommendations**: Based on the analysis, the app suggests personalized tracks that fit the user’s taste.
+## Learn More
 
-## Acknowledgements
+To learn more about Next.js, take a look at the following resources:
 
-- **Spotify API**: For providing access to users' listening data.
-- **Machine Learning Libraries**: 
-- **React**: For the frontend development.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## License
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
